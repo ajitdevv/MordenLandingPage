@@ -8,7 +8,7 @@ function Navbar() {
     AOS.init();
   }, []);
   const navitems = [
-    { name: "Home", href: "#Home" },
+    { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
