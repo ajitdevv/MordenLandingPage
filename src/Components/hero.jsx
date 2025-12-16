@@ -18,16 +18,11 @@ function Herosection() {
         </h1>
       </div>
       <div className="flex gap-6 mt-6 max-sm:flex-col max-sm:gap-4 ">
-        <a href="#reviews" 
-          data-aos="fade-up">
-          <button className="cosmic-button">Reviews</button>
+        <a href="#contact" data-aos="fade-up">
+          <button className="cosmic-button">Let’s discuss your project</button>
         </a>{" "}
-        <a
-          href="tel:+918058339867"
-          target="_blank"
-          data-aos="fade-up"
-        >
-          <button className="cosmic-button">Free Call </button>
+        <a href="tel:+918058339867" target="_blank" data-aos="fade-up">
+          <button className="cosmic-button">Get a Free Consultation</button>
         </a>
       </div>
       <div className="absolute bottom-8 left-1/2 transform mt-4 -translate-x-1/2 flex flex-col items-center justify-center animate-bounce ">
