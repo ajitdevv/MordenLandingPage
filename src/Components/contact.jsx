@@ -40,19 +40,21 @@ function Contact() {
                 name="number"
                 placeholder="Your Number"
                 required
-                className="bg-background p-2 text-primary rounded-2xl shadow-md"
+                className="bg-background p-2 text-primary w-full rounded-2xl shadow-md"
               />
               <input
                 type="date"
                 name="date"
+                placeholder="Select Date"
                 required
-                className="bg-background p-2 text-primary rounded-2xl shadow-md"
+                className="bg-background p-2 text-primary w-full rounded-2xl shadow-md"
               />
                 <input
                   type="time"
                   name="time"
                   required
-                  className="bg-background p-2 text-primary rounded-2xl shadow-md "
+                  placeholder="select Date"
+                  className="bg-background p-2 text-primary w-full rounded-2xl shadow-md "
                 />
                
               <textarea
@@ -91,7 +93,7 @@ function Contact() {
               <div className="flex flex-row justify-between bg-card text-foreground py-5 rounded-2xl hover:scale-110 transition-transform duration-300">
                 <h1 className="px-6 flex gap-2">
                   <BsWhatsapp className="size-8 text-green-500" />
-                  Contact on whatsapp
+                  Connect on whatsapp
                 </h1>
                 <ArrowRight className="text-primary mr-2" />
               </div>
