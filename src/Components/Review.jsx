@@ -63,7 +63,7 @@ function Review() {
       <div className="grid grid-cols-3 max-lg:grid-cols-2  max-sm:grid-cols-1 gap-6"  >
         {/* Reviews grid */}
         {reviews.map((review, index) => (
-          <div key={index} className="flex p-5 rounded-2xl flex-col bg-card w-80 items-center gap-4" data-aos="fade-currel" data-aos-offset="250">
+          <div key={index} className="flex p-5 rounded-2xl flex-col bg-card w-80 items-center gap-4 shadow-md" data-aos="fade-currel" data-aos-offset="250">
             <img
               src={review.image}
               alt={review.name}
