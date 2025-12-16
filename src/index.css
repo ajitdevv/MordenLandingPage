@@ -14,7 +14,7 @@
 
   --color-shadow: var(--shadow);
 
-  }
+}
 
 @layer base {
 
@@ -31,6 +31,7 @@
     --muted: #64748B;
     --shadow: 0 10px 25px rgba(2, 6, 23, 0.08);
   }
+
   .dark {
     --background: #020617;
     --foreground: #F8FAFC;
@@ -46,6 +47,7 @@
 
     --shadow: 0 12px 28px rgba(0, 0, 0, 0.6);
   }
+
   * {
     @apply border-border;
   }
@@ -63,42 +65,9 @@
 }
 
 @layer utilities {
-  /* .container {
-    margin-inline: auto;
-    padding-inline: 2rem;
-
-    @media (width>=640px) {
-      max-width: 640px;
-    }
-
-    @media (width>=768px) {
-      max-width: 768px;
-    }
-
-    @media (width>=1024px) {
-      max-width: 1024px;
-    }
-
-    @media (width>=1280px) {
-      max-width: 1280px;
-    }
-
-    @media (width>=1400px) {
-      max-width: 1400px;
-    }
-
-  }
- */
-
-
   .cosmic-button {
-    @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-(--shadow) hover:scale-95;
+    @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-(--shadow) hover:scale-95 shadow-lg;
   }
-
-  .primary-button {
-    @apply px-2 py-1 rounded-full bg-background text-accent font-medium transition-all duration-300 hover:scale-95;
-  }
-
 
   .card {
     @apply p-3 rounded-2xl bg-card
