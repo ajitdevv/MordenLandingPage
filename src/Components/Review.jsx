@@ -1,9 +1,9 @@
 import { ArrowDown } from "lucide-react";
-import review1 from "../Assets/review images/review1.webp";
-import review2 from "../Assets/review images/review2.webp";
-import review3 from "../Assets/review images/review3.webp";
-import review4 from "../Assets/review images/review4.webp";
-import review5 from "../Assets/review images/review5.avif";
+import review1 from "../assets/reviewimages/review1.webp";
+import review2 from "../assets/reviewimages/review2.webp";
+import review3 from "../assets/reviewimages/review3.webp";
+import review4 from "../assets/reviewimages/review4.webp";
+import review5 from "../assets/reviewimages/review5.avif";
 function Review() {
   const reviews = [
     {
