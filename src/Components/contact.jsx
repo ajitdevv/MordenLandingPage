@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight,Calendar  } from "lucide-react";
 import {
   BsGithub,
   BsInstagram,
@@ -31,71 +31,40 @@ function Contact() {
               Contact <span className="text-foreground"> Me</span>
             </h1>
             <form
-              action="https://formspree.io/f/mzzaewzd"
+               action="https://formspree.io/f/mzzaewzd"
               method="POST"
-              className="flex flex-col rounded-2xl w-[90%] bg-card p-3 max-sm:pb-9"
+              className="flex flex-col gap-4 w-[80%] p-6 bg-card rounded-lg shadow-md "
             >
-              <div
-                data-aos="fade-left"
-                data-aos-offset="150"
-                className="flex flex-row w-full jestify-srart font-bold text-2xl text-primary/70"
-              >
-                <h1>Say hi..</h1>
-              </div>
-              <div className="flex flex-row w-full jestify-srart ">
+              <input
+                type="number"
+                name="number"
+                placeholder="Your Number"
+                required
+                className="bg-background p-2 text-primary rounded-2xl shadow-md"
+              />
+              <input
+                type="date"
+                name="date"
+                required
+                className="bg-background p-2 text-primary rounded-2xl shadow-md"
+              />
                 <input
-                  data-aos="fade-right"
-                  data-aos-offset="150"
-                  name="Firstname"
-                  type="text"
-                  id="Firstname"
-                  placeholder="First name"
+                  type="time"
+                  name="time"
                   required
-                  pattern="^[A-Za-z]{2,}$"
-                  title="First name should contain only letters (2–15 characters)"
-                  className="w-[50%] rounded-2xl bg-background m-5 p-3"
+                  className="bg-background p-2 text-primary rounded-2xl shadow-md "
                 />
-                <input
-                  data-aos="fade-left"
-                  data-aos-offset="150"
-                  name="Lastname"
-                  type="text"
-                  id="Lastname"
-                  placeholder="Last name"
-                  required
-                  pattern="^[A-Za-z]{2,}$"
-                  title="First name should contain only letters (2–15 characters)"
-                  className="w-[50%]  rounded-2xl bg-background m-5 p-3"
-                />
-              </div>
-              <div>
-                <input
-                  data-aos="fade-left"
-                  data-aos-offset="150"
-                  name="contact"
-                  type="contact"
-                  id="contact"
-                  placeholder="Enter mobile number"
-                  required
-                  pattern="^(?:\+91|91|0)?[6-9]\d{9}$"
-                  title="Please enter a valid mobile number"
-                  className=" rounded-2xl w-[91%] bg-background m-5 p-3"
-                />
-              </div>
-
-              <div>
-                <button
-                  data-aos="fade-in"
-                  data-aos-offset="50"
-                  type="submit"
-                  className="cosmic-button mt-5 w-[90%]"
-                >
-                  Sand
-                </button>
-              </div>
+               
+              <textarea
+                name="message"
+                placeholder="Call purpose"
+                className="bg-background p-2 text-primary rounded-2xl shadow-md "
+              ></textarea>
+              <button type="submit" className="cosmic-button">
+                Schedule Call
+              </button>
             </form>
           </div>
-
           <div className="w-[35%] max-sm:w-[90%] max-sm:justify-center flex flex-col gap-7">
             {/* Instagram */}
             <a
@@ -127,13 +96,11 @@ function Contact() {
                 <ArrowRight className="text-primary mr-2" />
               </div>
             </a>
-
             {/* Phone */}
             <a
               href="tel:+918058339867"
               target="_blank"
               data-aos="fade-up"
-              // data-aos-offset="150"
             >
               <div className="flex flex-row justify-between bg-card text-foreground py-5 rounded-2xl hover:scale-110 transition-transform duration-300">
                 <h1 className=" px-6 flex gap-2">
@@ -149,9 +116,9 @@ function Contact() {
                 data-aos-offset="150"
                 className="cosmic-button h-10 w-[50%]"
               >
-                <a href="#reviews">
-                  <button >Buy Tocken</button>
-                </a>{" "}
+                <a href="#">
+                  <button>Buy Tocken</button>
+                </a>
               </div>
               <div
                 data-aos="fade-left"
@@ -159,7 +126,6 @@ function Contact() {
                 className="cosmic-button h-10  w-[50%]"
               >
                 <a href="#">
-                  {" "}
                   <button> Buy Now </button>
                 </a>
               </div>
