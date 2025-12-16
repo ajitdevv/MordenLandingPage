@@ -8,6 +8,7 @@ import CompletedProjects from "./Components/ComplectProjects.jsx";
 import Review from "./Components/Review.jsx";
 import Contact from "./Components/contact.jsx";
 import Footer from "./Components/Footer.jsx";
+import Call from "./Components/Call.jsx";
 function home() {
   return (
     <div className="min-h-screen costum-scroll bg-background text-foreground overflow-x-hidden">
@@ -20,9 +21,9 @@ function home() {
         {/* <Topbutton/> */}
         <Herosection /> 
         <Aboutbrand />
-        
         <CompletedProjects />
         <Review />
+        <Call />
         <Contact />
       </main>
       {/* Footer */}

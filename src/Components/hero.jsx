@@ -27,7 +27,7 @@ function Herosection() {
           target="_blank"
           data-aos="fade-up"
         >
-          <button className="cosmic-button">Call </button>
+          <button className="cosmic-button">Free Call </button>
         </a>
       </div>
       <div className="absolute bottom-8 left-1/2 transform mt-4 -translate-x-1/2 flex flex-col items-center justify-center animate-bounce ">
