@@ -3,7 +3,7 @@
 A modern, responsive landing page built using React.js, Vite, and Tailwind CSS.  
 This project focuses on clean UI, reusable components, and responsive design.
 
-## Live Demo[
+## Live Link
 https://morden-landing-page-psi.vercel.app/
 
 ## GitHub Repository
