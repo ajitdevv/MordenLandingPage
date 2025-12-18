@@ -14,8 +14,8 @@ function Footer() {
         {/* Brand */}
         <div className="text-center md:text-left">
           <div className="flex gap-1 tracking-wide">
-            <img className="size-8" src={logo} alt="Logo" />{" "}
-            <img className="w-60" src={logo2} alt="logo" />{" "}
+            <img className="size-8" src={logo} alt="Logo" />
+            <img className="w-60" src={logo2} alt="logo" />
           </div>
           <p className="text-sm text-muted mt-1 max-w-xs">
             Helping you find homes that match your lifestyle, comfort, and
@@ -39,7 +39,7 @@ function Footer() {
 
       {/* Bottom line */}
       <div className="border-t border-border py-4 text-center text-sm text-muted">
-        © {new Date().getFullYear()} RealEstateIndia. All rights reserved.
+        © {new Date().getFullYear()} <span className="text-blue-700">RealEstate</span><span className="text-red-700">India</span>. All rights reserved.
       </div>
     </footer>
   );

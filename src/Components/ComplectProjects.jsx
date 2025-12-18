@@ -63,7 +63,7 @@ function CompletedProjects() {
         <div className="flex flex-col items-center">
           <h1 className="text-3xl w-100" data-aos="fade-up" data-aos-offset="150">
             <span className="text-primary font-bold">Projects </span>
-            <span className="underline text-foreground">Completed</span>{" "}
+            <span className="underline text-foreground">Completed</span>
           </h1>
           <h2 className="w-100 mt-2 mb-8 max-sm:w-[90%] text-foreground"  data-aos="fade-up" data-aos-offset="150">
             Crafting Space, Building Legacies-Explore Our Portfolio
@@ -94,7 +94,7 @@ function CompletedProjects() {
                 alt={project.name}
                 className="w-full h-48 object-cover"
               />
-              <h1 className="absolute text-foreground top-0 bg-background left-0.5 mt-1 px-1 rounded-2xl ">
+              <h1 className="absolute text-foreground top-0 bg-background left-0.5 mt-0.5 px-1 rounded-2xl ">
                 {project.prices}
               </h1>
             </div>

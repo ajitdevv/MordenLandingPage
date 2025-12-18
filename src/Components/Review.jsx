@@ -46,6 +46,14 @@ function Review() {
         "Outstanding support and prompt responses throughout the process. A trustworthy real estate brand that truly values customer satisfaction and long term relationships.",
       image: review5,
     },
+    {
+      name: "Daniel Brooks",
+      rating: "Reating",
+      stars: "⭐⭐⭐⭐⭐",
+      comment:
+        "Excellent service with clear communication and professional guidance. The entire home buying journey felt smooth, well managed, and completely stress free from start to finish.",
+      image: review1,
+    },
   ];
 
   return (
